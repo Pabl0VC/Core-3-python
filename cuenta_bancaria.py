@@ -28,8 +28,6 @@ class CuentaBancaria:
     def generar_interés(self):
         print (f"Tipo de cuenta:{self.tipo_cuenta} \nCon una tasa de interés de {self.tasa_interés}:")
         self.balance= self.balance + (self.tasa_interés)*(self.balance)
-        # self.mostrar_info_cuenta() 
-        # print("\t")
         return self
 
 
